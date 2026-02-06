@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwitchApp — Web Platform Case Study</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap">
+        <div class="nav">
+          <div class="brand">
+            <strong><a href="/index.html">Peter Olugbenga</a></strong>
+            <span>Product Designer</span>
+          </div>
+
+          <div class="cta">
+            <button
+              class="theme-toggle"
+              id="themeToggle"
+              aria-label="Toggle theme"
+              title="Toggle theme"
+            >
+              <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"
+                />
+              </svg>
+              <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"
+                />
+              </svg>
+            </button>
+
+            <a class="btn" href="/index.html#work">Back to work</a>
+            <a class="btn primary" href="mailto:olasunkanmifinesse@gmail.com"
+              >Email</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="crumbs">
+          <a href="/index.html#work">Selected work</a>
+          <span style="opacity: 0.55">•</span>
+          <span>Case study</span>
+        </div>
+
+        <h1 class="title">
+          SwitchApp Web Platform for
+          <abbr title="Small and Medium-sized Enterprises">SMEs</abbr> and
+          Retailers
+        </h1>
+        <p class="subtitle">
+          End-to-end design for a real fintech web platform used by
+          <abbr title="Small and Medium-sized Enterprises">SMEs</abbr> and
+          retail merchants to manage money workflows. The focus was clarity,
+          trust cues, and consistent UI patterns across payments and account
+          actions.
+          <b style="color: var(--text)">Mobile is not shipped yet, web only.</b>
+        </p>
+
+        <div class="meta" aria-label="Project meta">
+          <span class="pill"
+            ><b style="color: var(--text)">Type:</b> Real product</span
+          >
+          <span class="pill"
+            ><b style="color: var(--text)">Platform:</b> Web</span
+          >
+          <span class="pill"
+            ><b style="color: var(--text)">Users:</b>
+            <abbr title="Small and Medium-sized Enterprises">SMEs</abbr> and
+            retail merchants</span
+          >
+          <span class="pill"
+            ><b style="color: var(--text)">Work:</b> UX, UI, system patterns,
+            developer handoff specs</span
+          >
+        </div>
+
+        <div class="shot" aria-label="Project hero image">
+          <!-- Replace this with your actual image path -->
+          <img
+            src="YOUR-SWITCH-IMAGE.png"
+            alt="SwitchApp web platform screens"
+          />
+        </div>
+      </section>
+
+      <!-- CONTEXT -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Context</h2>
+            <p>
+              What the platform is, who it serves, and what needed to improve.
+            </p>
+          </div>
+        </div>
+
+        <div class="twocol">
+          <div class="card">
+            <h3>What SwitchApp is</h3>
+            <p>
+              SwitchApp is a fintech web platform that helps <abbr title="Small and Medium-sized Enterprises">SMEs</abbr>and retail
+              merchants handle day-to-day money operations. The platform
+              supports payment collection and merchant actions across multiple
+              modules while keeping interactions predictable and trustworthy.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Why this mattered</h3>
+            <p>
+              Money workflows have low tolerance for confusion. If hierarchy is
+              weak or modules behave differently, users hesitate, make mistakes,
+              or abandon tasks. The goal was a web experience that feels
+              consistent, clear, and reliable across core merchant journeys.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROLE -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>My role</h2>
+            <p>What I owned and what I delivered.</p>
+          </div>
+        </div>
+
+        <div class="twocol">
+          <div class="card">
+            <h3>Ownership</h3>
+            <p>
+              I owned the end-to-end product design for the web platform: UX
+              flows, UI execution, system-level patterns, and detailed developer
+              handoff specifications.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Handoff</h3>
+            <p>
+              I provided handoff specs to support implementation: component
+              usage rules, spacing and layout guidance, state definitions, and
+              interaction notes for key flows.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT I DESIGNED -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Key modules designed</h2>
+            <p>All major merchant workflows covered on web.</p>
+          </div>
+        </div>
+
+        <div class="twocol">
+          <div class="card">
+            <h3>Payments and payment links</h3>
+            <p>
+              Designed flows to collect payments through payment links with
+              clear creation, sharing, and tracking. The interface makes it
+              obvious what the merchant is generating and what the customer will
+              experience.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Products with payment links</h3>
+            <p>
+              Designed product setup so merchants can attach payment links to
+              products, manage pricing, and use the same collection patterns
+              without relearning the UI.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Top up and transfers</h3>
+            <p>
+              Designed money movement flows with strong hierarchy and
+              confirmation: who, amount, fees if applicable, and what happens
+              next. Error states were built to be recoverable.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Payouts and bill payments</h3>
+            <p>
+              Designed payout and bill payment flows that follow the same
+              interaction patterns as transfers, so the platform feels
+              consistent across different transaction types.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- APPROACH -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Approach</h2>
+            <p>How the web platform was made consistent and trustworthy.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Flow first</h3>
+            <p>
+              Mapped the core journeys across modules so UI patterns reflect
+              real actions and rules, not just visuals. This reduced
+              inconsistencies between payment, transfer, and bill flows.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Trust cues and hierarchy</h3>
+            <p>
+              Strengthened hierarchy, confirmation, and state messaging so
+              merchants can confidently complete high-stakes actions. The
+              platform communicates clearly at every step.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>System patterns</h3>
+            <p>
+              Established reusable patterns for forms, tables, buttons, and
+              status messaging to support scalability. These patterns are ready
+              to extend into additional modules and future mobile work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATES -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>System states</h2>
+            <p>Designed intentionally so the UI never goes silent.</p>
+          </div>
+        </div>
+
+        <div class="twocol">
+          <div class="card">
+            <h3>Transactional states</h3>
+            <ul>
+              <li>
+                Success states that confirm completion and show next options
+              </li>
+              <li>
+                Pending states that explain what is happening and what to expect
+              </li>
+              <li>
+                Failed states with clear reasons where possible and a recovery
+                path
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Empty and loading states</h3>
+            <ul>
+              <li>
+                Empty states that guide merchants toward the next meaningful
+                action
+              </li>
+              <li>
+                Loading states that keep users informed and reduce uncertainty
+              </li>
+              <li>Consistent messaging tone across modules</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUTCOME -->
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Outcome</h2>
+            <p>Clear outcomes without fake metrics.</p>
+          </div>
+        </div>
+
+        <div class="twocol">
+          <div class="card">
+            <h3>Result</h3>
+            <p>
+              A cohesive web platform designed for <abbr title="Small and Medium-sized Enterprises">SMEs</abbr> and retailers, with
+              consistent UI patterns across payments, payment links, top ups,
+              payouts, transfers, bill payments, and product-linked collections.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Next</h3>
+            <p>
+              Extend the system into more modules and translate validated web
+              patterns into a mobile experience when the roadmap supports it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section" id="contact">
+        <div class="callout">
+          <h2>Want to hire or collaborate?</h2>
+          <p>
+            If you are building a fintech or platform product and want
+            clarity-first UX with system-level consistency, email me with a
+            clear scope.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:olasunkanmifinesse@gmail.com"
+              >Email me</a
+            >
+            <a class="btn" href="/index.html#work">Back to work</a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="foot">
+          <small
+            >© <span id="year"></span> Peter Olugbenga. All rights
+            reserved.</small
+          >
+          <small>
+            <a
+              href="mailto:olasunkanmifinesse@gmail.com"
+              style="color: var(--accent)"
+              >olasunkanmifinesse@gmail.com</a
+            >
+          </small>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
